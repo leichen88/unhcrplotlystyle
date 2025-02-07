@@ -107,9 +107,3 @@ pio.templates["chart_template"] = go.layout.Template(
 
 # Set the template as default
 pio.templates.default = "chart_template"
-
-
-
-
-
-
