@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 import plotly.io as pio
 
 # Define the custom template
-pio.templates["chart_template"] = go.layout.Template(
+pio.templates["unhcr_style"] = go.layout.Template(
     layout=dict(
         # General layout settings
         paper_bgcolor="#FFFFFF",  # Background color of the entire chart
@@ -106,4 +106,4 @@ pio.templates["chart_template"] = go.layout.Template(
 )
 
 # Set the template as default
-pio.templates.default = "chart_template"
+pio.templates.default = "unhcr_style"
